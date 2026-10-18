@@ -1,0 +1,15 @@
+# Dependency floors for the notebook. Google Colab ships compatible versions of most of
+# these; the notebook's setup cell installs only what is missing, so exact pins are not
+# required. The exact versions below were verified together in the shipped execution run
+# (Linux, CPU-only container):
+#   numpy 2.4.6 | pandas 3.0.6 | scikit-learn 1.9.1 | matplotlib 3.11.2
+#   torch 2.14.1 (CPU build; CUDA build used automatically when a GPU is present)
+#   transformers 5.20.1 | kagglehub 1.0.2 | tqdm 4.70.1
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.9
+torch>=2.4
+transformers>=4.44
+kagglehub>=0.3
+tqdm>=4.66
