@@ -2,10 +2,6 @@
 
 A single, reproducible Google Colab notebook that compares a **classical TF-IDF pipeline** (class-weighted Logistic Regression + Linear SVM) with the **pretrained `cardiffnlp/twitter-roberta-base-sentiment-latest` transformer** on the **Twitter US Airline Sentiment** dataset — one shared held-out test set, identical metrics, zero tuning on test data.
 
-This is a portfolio/educational project for PhD applications in CS & AI. It is a **new implementation** inspired by the author's MSc dissertation topic ("Sentiment Analysis in Social Media"); it does not reproduce that dissertation's data, methodology or findings, and it makes **no claim of novelty**.
-
----
-
 ## What the notebook does
 
 | | |
